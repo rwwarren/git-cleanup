@@ -6,10 +6,6 @@ cleanupRepo() {
     git stash
   }
 
-  #checkoutMaster() {
-  #  git checkout master
-  #}
-
   pull() {
     git pull origin master
   }
@@ -44,7 +40,6 @@ cleanupRepo() {
 
   intialBranch=$(git_current_branch)
   stashResult=$(stash)
-  #echo $(stash)
   #check if intial was master
   if [ "$intialBranch" != "master" ]; then
     echo $(changeBranch master)
