@@ -58,7 +58,7 @@ cleanupRepo() {
 
 }
 
-cleanupPorch() {
+cleanupBase() {
   currentDir=$(pwd)
   cd $repoLocation
   for d in */ ; do
@@ -70,4 +70,4 @@ cleanupPorch() {
   cd $currentDir
 }
 
-alias cleanup=cleanupPorch
+alias cleanup=cleanupBase
