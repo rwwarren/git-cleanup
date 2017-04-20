@@ -7,6 +7,4 @@ This is a script designed for oh-my-zsh to update and prune all your git project
 (~/.oh-my-zsh/custom/plugins/cleanup)
 2. Change the "repoLocation" from "" to wherever your directory with all your git repos are
 3. Enable the plugin through the zshrc by adding "cleanup" to the plugins section
-
-The enabled plugins might look like this:
-`plugins=(git cleanup)`
+  * The enabled plugins might look like this: `plugins=(git cleanup)`
